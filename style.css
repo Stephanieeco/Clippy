@@ -15,10 +15,13 @@
     --color-text-body: hsl(31, 17%, 42%);
     --color-text-title: hsl(31, 18%, 20%);
     --color-border-200: hsl(44, 51%, 91%);
+    --color-bckground-white: hsl(0, 0%, 100%);
+
 
     /* button text */
     --color-button-text: var(--color-text-title);
     --color-button-bckground: hsl(30, 22%, 96%);
+    --color-border-sec: hsl(45, 51%, 91%);
 }
 
 /* typography */
@@ -82,4 +85,39 @@
     font-style: normal;
     font-weight: 500;
     src: url('/fonts/Nunitonunito-v26-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  body {
+    margin: 0;
+    min-width: 400px;
+    font-family: nunito, nunito-sans, sans-serif;
+    background-color: var(--color-bckground-white) ;
+  }
+
+  h1 {
+
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+    background-color: var(--color-brand-500);
+  }
+
+  .title-container {
+    width: 100%;
+    padding: 1em;
+    border-bottom: 1px solid var( --color-border-sec);
+  }
+
+
+  #clear-btn {
+    width: 100%;
+    text-align: left;
+    padding: 1em ;
+    background-color: var(--color-button-bckground);
+    border: none;
+    font-weight: 500;
+
   }
