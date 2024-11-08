@@ -1,0 +1,12 @@
+{
+    "manifest.version": 3,
+    "version": "0.1",
+    "name": "Copy History Tracker",
+    "description": "A Chrome extension to save and manage your browser copy history.",
+     
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "Assets/Graphics%20assets/Clippy%20logo.svg"
+
+    }
+}
