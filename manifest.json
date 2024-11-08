@@ -6,7 +6,7 @@
      
     "action": {
         "default_popup": "index.html",
-        "default_icon": "Assets/Graphics%20assets/Clippy%20logo.svg"
+        "default_icon": "/Assets/Graphics%20assets/Clippy%20logo.svg"
 
     }
 }
