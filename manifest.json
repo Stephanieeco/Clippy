@@ -1,5 +1,5 @@
 {
-    "manifest.version": 3,
+    "manifest_version": 3,
     "version": "0.1",
     "name": "Copy History Tracker",
     "description": "A Chrome extension to save and manage your browser copy history.",
