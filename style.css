@@ -13,6 +13,7 @@
     --color-brand-500: hsl(61, 100%, 81%) ;
     --color-icon-500: hsl(30, 16%, 55%);
     --color-text-body: hsl(31, 17%, 42%);
+    --color-text-body-white: hsl(0, 0%, 100%);
     --color-text-title: hsl(31, 18%, 20%);
     --color-border-200: hsl(44, 51%, 91%);
     --color-bckground-white: hsl(0, 0%, 100%);
@@ -21,6 +22,7 @@
     /* button text */
     --color-button-text: var(--color-text-title);
     --color-button-bckground: hsl(30, 22%, 96%);
+    --color-button-background-error: hsl(321, 70%, 61%);
     --color-border-sec: hsl(45, 51%, 91%);
 }
 
@@ -120,4 +122,9 @@
     border: none;
     font-weight: 500;
 
+  }
+
+  #clear-btn:hover {
+    background-color: var(--color-button-background-error);
+    color: var(--color-text-body-white);
   }
