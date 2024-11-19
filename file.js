@@ -10,6 +10,9 @@ chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
 
 
 document.addEventListener("copy", function() {
+  const storedData = event.clipboardData.getData("text/plain")
+  let allLinks = JSON.stringify(localStorage.getItem("links")) || []
+  links.push(storedData)
   renderCopiedItems()
     
 })
