@@ -3,7 +3,9 @@
     "version": "0.1",
     "name": "Clippy",
     "description": "A Chrome extension to save and manage your browser copy history.",
-
+    "background":{
+      "service_worker":"background.js"
+    },
     "permissions": ["clipboardRead", "storage"],
 
     "content_scripts": [

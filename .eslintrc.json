@@ -1,0 +1,19 @@
+{
+    "extends": [
+      "plugin:react/recommended",
+      "plugin:react-native/all",
+      "prettier"
+    ],
+    "plugins": ["prettier"],
+    "env": {
+      "es2020": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "prettier/prettier": "error",
+      "react-native/no-inline-styles": "off", 
+      "react/prop-types": "off"
+    }
+  }
+  
